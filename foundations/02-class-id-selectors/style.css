@@ -1,0 +1,20 @@
+/* Stylesheet for exercise 02-class-id-selectors */
+
+.odd {
+   background-color: rgb(235, 79, 89);
+   font-family: "Veranda", "DejaVu Sans", sans-serif;
+}
+
+#second {
+    color: blue;
+    font-size: 36px;
+}
+
+.middle-font {
+    font-size: 24px
+}
+
+#fourth {
+    background-color: #4aea54;
+    font-weight: 700;
+}
