@@ -1,0 +1,9 @@
+/* Stylesheet for exercies 05-descendant-combinator */
+
+/* Select only paragraph elemens within container divs */
+.container p {
+    background-color: yellow;
+    color: hsl(0, 98%, 53%);
+    font-size: 20px;
+    text-align: center;
+}
