@@ -1,4 +1,4 @@
-/* this is some magical font-importing.  
+/* this is some magical font-importing.
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
@@ -12,6 +12,13 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+
+  /* Add spacing around items */
+  padding: 8px;
+  /* Flexbox */
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .profile-image {
@@ -45,4 +52,14 @@ a {
 
 ul {
   list-style-type: none;
+
+  /* Flexbox */
+  display: flex;
+  gap: 16px;
+
+  /* Remove default padding and margin  *
+   * and set right margin to fill space */
+  padding: 0;
+  margin: 0;
+  margin-right: auto;
 }
